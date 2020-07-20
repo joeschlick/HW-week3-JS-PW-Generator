@@ -4,10 +4,6 @@ const generateBtn = document.querySelector("#generate");
 // Write password to the #password input
 function generatePassword() {
   let strLength = prompt("Enter desired number of characters between 8 and 128.");
-  // let pwLength = parseInt(strLength);
-
-  // console.log(pwLength)
-
   if(isNaN(strLength)) {
     alert("Must be a number");
     return "Your Secure Password";
@@ -16,10 +12,34 @@ function generatePassword() {
     alert("Must be a number between 8 and 128");
     return "Your Secure Password";
   }
+  
   let pwLcase = confirm("Include lowercase letters?");
+  if (pwLcase) {
+    alert("Lowercase letters added")
+  } else {
+    alert("Lowercase letters removed")
+  }
+  
   let pwUcase = confirm("Include uppercase letters?");
+  if (pwUcase) {
+    alert("Uppercase letters added")
+  } else {
+    alert("Uppercase letters removed")
+  }
+
   let pwNum = confirm("include numbers?");
+  if (pwNum) {
+    alert("Numbers added")
+  } else {
+    alert("Numbers removed")
+  }
+  
   let pwSym = confirm("Include special characters?");
+  if (pwSym) {
+    alert("Special characters added")
+  } else {
+    alert("Special characters removed")
+  }
 
   if (pwLcase + pwUcase + pwNum + pwSym == 0) {
     alert("No selections made");
