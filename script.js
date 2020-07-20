@@ -1,12 +1,5 @@
 // Assignment Code
 const generateBtn = document.querySelector("#generate");
-// const strLength = prompt("Enter desired number of characters between 8 and 128.");
-// const pwLcase = confirm("Include lowercase letters?");
-// const pwUcase = confirm("Include uppercase letters?");
-// const pwNum = confirm("include numbers?");
-// const pwSym = confirm("Include special characters?");
-// let pwLength = parseInt(strLength);
-
 
 // Write password to the #password input
 function generatePassword() {
