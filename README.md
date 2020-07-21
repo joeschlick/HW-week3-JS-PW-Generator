@@ -12,4 +12,4 @@ Once selections are made, a random password based on user selections is returned
 Screenshots
 ![image](https://user-images.githubusercontent.com/66143571/87977451-9a82a080-ca83-11ea-8a38-52b6eff33c75.png)
 
-![image](https://user-images.githubusercontent.com/66143571/87977463-a2424500-ca83-11ea-9382-96b1d13b264d.png)
+![Screen Shot 2020-07-20 at 12 21 11 PM](https://user-images.githubusercontent.com/66143571/87998035-99fe0000-caab-11ea-8c54-e60e9a6ac4db.png)
